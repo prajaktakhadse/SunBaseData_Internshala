@@ -1,8 +1,8 @@
 package com.example.Service;
 
-import com.example.model.Customer;
+import com.example.payload.CustomerDtos;
 
 public interface CustomerService {
 
-	Customer createNewCustomer(Customer customer);
+	CustomerDtos createNewCustomer(CustomerDtos customerDtos);
 }

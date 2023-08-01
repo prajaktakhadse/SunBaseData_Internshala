@@ -37,6 +37,8 @@ public class Customer {
   
   private String city;
   
+  private String state;
+  
   private String email;
   
   private String phone;
