@@ -14,7 +14,7 @@ import com.example.payload.CustomerDtos;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/sunbase/portal/api/")
+@RequestMapping("/sunbase/portal/api")
 public class CustomerController {
 	
 	@Autowired
